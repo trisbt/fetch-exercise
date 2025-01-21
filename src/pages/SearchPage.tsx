@@ -46,7 +46,7 @@ const SearchPage = () => {
           setDogs([]);
           setError("No dogs found.");
           setPagination({ next: undefined, prev: undefined });
-          setTotalResults(0); // Store total count
+          setTotalResults(0);
           return;
         }
 
@@ -103,9 +103,6 @@ const SearchPage = () => {
       });
     }
   };
-
-
-
 
   return (
     <Box

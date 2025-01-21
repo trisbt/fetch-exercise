@@ -46,7 +46,6 @@ const MatchPage = () => {
     findMatch();
   }, [favorites]);
 
-
   return (
     <div className={styles.container}>
       <h1>Your next dog awaits! Adopt today!</h1>

@@ -70,7 +70,6 @@ const FilterDropdown = ({ onFilterChange }: FilterDropdownProps) => {
     setTimeout(() => handleClose(), 100); 
   };
 
-
   return (
     <>
       <Button

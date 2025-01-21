@@ -10,25 +10,6 @@
     background-repeat: repeat;
 }
 
-.filters {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-}
-
-.results {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    width: 100%;
-}
-
-.loading, .error {
-    font-weight: bold;
-    color: #fffbfb;
-}
-
 h1{
     padding-bottom: 40px;
     color: white;

@@ -12,7 +12,7 @@ interface PaginationProps {
   onPageChange: (direction: "next" | "prev") => void;
   hasNext: boolean;
   hasPrev: boolean;
-  totalResults: number | null;  // ✅ Accept total results as a prop
+  totalResults: number | null;
 }
 
 const Pagination = ({ onPageChange, hasNext, hasPrev, totalResults }: PaginationProps) => {
@@ -33,7 +33,7 @@ const Pagination = ({ onPageChange, hasNext, hasPrev, totalResults }: Pagination
         color="primary"
         endIcon={<ArrowForwardIcon />}
         onClick={() => onPageChange("next")}
-        disabled={!hasNext || totalResults === 0}  // ✅ Correct condition to disable Next button
+        disabled={!hasNext || totalResults === 0}
       >
         Next
       </Button>
